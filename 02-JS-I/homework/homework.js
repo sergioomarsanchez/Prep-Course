@@ -66,7 +66,7 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if x === y {
+  if (x === y) {
     return true
   else {
     return false
@@ -78,7 +78,7 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-  if str1.length === str2.lenght {
+  if (str1.length === str2.lenght) {
     return true
     else {
       return false
@@ -90,7 +90,7 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
-  if num < 90 {
+  if (num < 90) {
     return true
     else {
       return false
@@ -102,7 +102,7 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  if num > 50 {
+  if (num > 50) {
     return true
     else {
       return false
@@ -120,7 +120,7 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num % 1)=== 0{
+  if ((num % 1)=== 0) {
     return true
     else {
       return false
@@ -132,8 +132,8 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num%1)!= 0 {
-    return true }
+  if ((num%1)!= 0) {
+    return true
     else {
       return false
     }
@@ -184,17 +184,16 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  if numero>0 {
+  if (numero>0) {
     return 'Es positivo'
-    else if numero<0 {
+    else if (numero<0) {
       return 'Es negativo'
-      else {
-        return false
-      }
+    }
+    else {
+      return false
     }
   }
 }
-
 function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
@@ -252,15 +251,15 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-if letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u' {
+if (letra === 'a' || letra === 'e' || letra === 'i' || letra === 'o' || letra === 'u') {
   return 'Es vocal'
-  else if letra.lenght>1 {
+  else if (letra.lenght>1) {
       return 'Dato incorrecto'
       else {
         return 'Dato incorrecto'
       }
   }}
-
+}
 
 
 
