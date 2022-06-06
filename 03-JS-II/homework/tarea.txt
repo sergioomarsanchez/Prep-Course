@@ -1,0 +1,3 @@
+* `for` es un statement que ayuda a ejecutar códigos en bucle para evitar repeticiones innecesarias
+* `&&`, `||`, `!` signos lógicas que permiten concatenar diferentes  expresiones
+que arrojan resultados verdaderos o falsos
