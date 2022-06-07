@@ -1,0 +1,24 @@
+1. Explicaciones
+	* Objetos
+  es básicamente lo mismo que arrays pero en vez de keywords numeradas, contiene key words de cualquier tipo.
+  cada keyword tiene sus valores que pueden ser cualquier tipo incluso otros objetos
+
+	* Propiedades
+  son un conjunto de características que se se asignan a los objetos, por ejemplo a un objeto persona se
+  le puede asignar una propiedad nombre  que contenga un string con el nombre de la persona, otro para edad, etc
+
+	* Métodos
+  son las funciones contenidas en objetos o utilizadas en Objetos
+
+	* Bucle `for…in`
+  es un tipo de bucle que permite itinerar en objetos, dado que las keywords no son numéricas en orden como las
+  matrices, los objetos no se pueden itinerar creando una variable que sirva como contador como normalmente
+  se hace con el bucle for
+
+	* Notación de puntos vs notación de corchetes
+  para convocar las propiedades de objetos se pueden utilizar las notaciones de puntos como por ejemplo hacemos
+  con las arrays al convocar por ejemplo su longitud 'obeto.length' en este tipo de notaciòn solo se puede usar
+  la palabra clave literal.
+  para asignar una variable a la propiedad y sin embargo poder convocarla, necesitamos la notación por corchetes
+  que funciona de la misma manera o sintaxis a la que usamos en matrices
+  por ejemplo 'objeto['nombre']'
