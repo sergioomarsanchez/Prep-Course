@@ -1,0 +1,14 @@
+1. En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos
+como si se lo estuvieras explicando a un niño de 12 años. Hacer esto te ayudará a descubrir rápidamente
+cualquier agujero en tu comprensión.
+
+* `prototype`
+todo objeto en JS posee un prototipo que define sus propiedades-
+por ejemplo cuando creamos un objeto vacío estamos invocando su prototype en base al objeto global.
+con el fin de ahorrar espacio en las bases de datos, podemos crear métodos prototipeados que le permitan a
+todos los objetos(instancias) creados a partir de un objeto anterior, heredar las propiedades de su predecesor
+y así poder invocarlos de ser necesario sin tener que reescribir dichos métodos
+
+* _Constructors_ (de Clases)
+los constructors de clases, son nada más y nada menos que sus argumentos, propiedades y valores.
+ya sean propios o heredados de una clase o prototipo de un objeto predecesor
