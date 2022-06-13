@@ -1,13 +1,36 @@
-  h1 {
+  body {
+    background-image: url("https://images.pexels.com/photos/461960/pexels-photo-461960.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+  }
+  .divContainer{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+  }
+  .divContainer .divClass{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    text-align: center;
+    background-color: grey
+  }
+  .divContainer .divClass h1 {
     color: crimson
   }
-  #thirdDiv {
+
+  .divContainer #thirdDiv {
+    display: flex;
     height: 600px;
     width: 500px;
-    background: blue;
+    margin: 10px;
+    background-color: khaki;
     padding: 50px;
-    border-style: groove;
-    border-color: red
+    border: 2px black;
+    align-items: center;
+    justify-content: center;
+
   }
   #spanId{
     font-size: 18px;
